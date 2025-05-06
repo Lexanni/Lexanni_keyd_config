@@ -1,0 +1,59 @@
+[navigation]
+
+` = noop
+1 = noop
+2 = noop
+3 = noop
+4 = noop
+5 = noop
+6 = noop
+7 = noop
+8 = noop
+9 = noop
+0 = noop
+- = noop
+= = noop
+backspace = noop
+
+tab = noop
+q = noop
+w = noop
+e = noop
+r = noop
+t = noop
+y = noop
+u = C-left
+i = up
+o = C-right
+p = backspace
+[ = delete
+] = noop
+
+capslock = noop
+a = noop
+s = noop
+d = noop
+f = noop
+g = noop
+h = home
+j = left
+k = down
+l = right
+; = end
+' = noop
+\ = noop
+enter = noop
+
+leftshift = noop
+102nd = noop
+z = noop
+x = noop
+c = noop
+v = noop
+# b - modifier, enables symbols layer
+n = noop
+m = C-S-left
+, = S-tab
+. = tab
+/ = C-S-right
+rightshift = noop

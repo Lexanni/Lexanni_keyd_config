@@ -1,0 +1,122 @@
+[ju_ru:layout]
+
+` = layer(navigation)
+1 = !
+2 = -
+3 = "
+4 = .
+5 = ,
+6 = ?
+7 = ?
+8 = ,
+9 = .
+0 = "
+- = -
+= = !
+backspace = backspace
+
+tab = tab
+q = ж
+w = б
+e = м
+r = ы
+t = э
+y = ъ
+u = ю
+i = ь
+o = г
+p = п
+[ = й
+] = ф
+
+capslock = layer(ju_ru_shift)
+a = в
+s = л
+d = а
+f = е
+g = з
+h = щ
+j = и
+k = о
+l = т
+; = к
+' = layer(ju_ru_shift)
+\ = noop
+enter = enter
+
+leftshift = shift
+102nd = ц
+z = ч
+x = у
+c = н
+v = д
+b = layer(symbols)
+n = р
+m = с
+, = я
+. = ш
+/ = х
+rightshift = setlayout(ju_us)
+
+alt = layer(numbers)
+altgr = layer(numbers)
+
+[ju_ru_shift:S]
+
+` = noop
+1 = =
+2 = –
+3 = (
+4 = )
+5 = ;
+6 = :
+7 = :
+8 = ;
+9 = (
+0 = )
+- = –
+= = =
+backspace = delete
+
+tab = S-tab
+q = Ж
+w = Б
+e = М
+r = Ы
+t = Э
+y = Ъ
+u = Ю
+i = Ь
+o = Г
+p = П
+[ = Й
+] = Ф
+
+capslock = noop
+a = В
+s = Л
+d = А
+f = Е
+g = З
+h = Щ
+j = И
+k = О
+l = Т
+; = К
+' = noop
+\ = noop
+enter = S-enter
+
+leftshift = noop
+102nd = Ц
+z = Ч
+x = У
+c = Н
+v = Д
+b = noop
+n = Р
+m = С
+, = Я
+. = Ш
+/ = Х
+rightshift = noop

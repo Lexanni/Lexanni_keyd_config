@@ -1,0 +1,78 @@
+[ju_us:layout]
+
+` = layer(navigation)
+1 = !
+2 = -
+3 = "
+4 = .
+5 = ,
+6 = ?
+7 = ?
+8 = ,
+9 = .
+0 = "
+- = -
+= = !
+backspace = backspace
+
+tab = tab
+q = v
+w = f
+e = y
+r = l
+t = noop
+y = noop
+u = i
+i = d
+o = b
+p = w
+[ = x
+] = #
+
+capslock = layer(ju_us_shift)
+a = m
+s = s
+d = r
+f = e
+g = k
+h = j
+j = o
+k = t
+l = h
+; = u
+' = layer(ju_us_shift)
+\ = noop
+enter = enter
+
+leftshift = shift
+102nd = noop
+z = z
+x = '
+c = a
+v = c
+b = layer(symbols)
+n = p
+m = n
+, = g
+. = q
+/ = noop
+rightshift = setlayout(ju_ru)
+
+alt = layer(numbers)
+altgr = layer(numbers)
+
+[ju_us_shift:S]
+` = noop
+1 = =
+2 = –
+3 = (
+4 = )
+5 = ;
+6 = :
+7 = :
+8 = ;
+9 = (
+0 = )
+- = –
+= = =
+backspace = delete

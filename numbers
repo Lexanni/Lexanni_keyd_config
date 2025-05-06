@@ -1,0 +1,59 @@
+[numbers]
+
+` = `
+1 = !
+2 = @
+3 = #
+4 = $
+5 = %
+6 = ^
+7 = &
+8 = *
+9 = (
+0 = )
+- = _
+= = +
+backspace = noop
+
+tab = noop
+q = noop
+w = noop
+e = 9
+r = 8
+t = 7
+y = noop
+u = 7
+i = 8
+o = 9
+p = noop
+[ = noop
+] = noop
+
+capslock = noop
+a = 0
+s = 6
+d = 5
+f = 4
+g = noop
+h = noop
+j = 4
+k = 5
+l = 6
+; = 0
+' = noop
+\ = noop
+enter = noop
+
+leftshift = setlayout(main)
+102nd = noop
+z = 3
+x = 2
+c = 1
+v = noop
+b = noop
+n = noop
+m = 1
+, = 2
+. = 3
+/ = noop
+rightshift = setlayout(main)
