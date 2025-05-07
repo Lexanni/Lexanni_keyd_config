@@ -58,6 +58,7 @@ m = с
 / = х
 rightshift = setlayout(ju_us)
 
+control = layer(ju_ru_control)
 alt = layer(numbers)
 altgr = layer(numbers)
 
@@ -119,4 +120,64 @@ m = С
 , = Я
 . = Ш
 / = Х
+rightshift = noop
+
+[ju_ru_control]
+
+` = noop
+1 = C-!
+2 = C--
+3 = C-"
+4 = C-.
+5 = C-,
+6 = C-?
+7 = C-?
+8 = C-,
+9 = C-.
+0 = C-"
+- = C--
+= = C-!
+backspace = C-backspace
+
+tab = C-tab
+q = C-v
+w = C-f
+e = C-y
+r = C-l
+t = noop
+y = noop
+u = C-i
+i = C-d
+o = C-b
+p = C-w
+[ = C-x
+] = C-#
+
+capslock = noop
+a = C-m
+s = C-s
+d = C-r
+f = C-e
+g = C-k
+h = C-j
+j = C-o
+k = C-t
+l = C-h
+; = C-u
+' = noop
+\ = noop
+enter = C-enter
+
+leftshift = C-shift
+102nd = noop
+z = C-z
+x = C-'
+c = C-a
+v = C-c
+b = noop
+n = C-p
+m = C-n
+, = C-g
+. = C-q
+/ = noop
 rightshift = noop
