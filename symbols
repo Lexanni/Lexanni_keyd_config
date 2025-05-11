@@ -17,7 +17,7 @@ backspace = noop
 
 tab = noop
 q = *
-w = *
+w = /
 e = <
 r = >
 t = @
@@ -25,17 +25,17 @@ y = %
 u = ^
 i = (
 o = )
-p = $
-[ = &
+p = /
+[ = *
 ] = ~
 
 capslock = noop
-a = =
-s = -
-d = +
-f = !
-g = noop
-h = noop
+a = ^
+s = $
+d = %
+f = &
+g = +
+h = +
 j = {
 k = [
 l = ]
@@ -45,15 +45,15 @@ l = ]
 enter = noop
 
 leftshift = noop
-102nd = noop
+102nd = =
 z = \
 x = /
-c = *
-v = noop
+c = |
+v = -
 # b - enables this layer
-n = π
-m = '
+n = -
+m = |
 , = \
 . = /
-/ = |
+/ = =
 rightshift = noop

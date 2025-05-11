@@ -16,8 +16,8 @@
 backspace = noop
 
 tab = noop
-q = noop
-w = noop
+q = *
+w = /
 e = 9
 r = 8
 t = 7
@@ -25,8 +25,8 @@ y = noop
 u = 7
 i = 8
 o = 9
-p = noop
-[ = noop
+p = /
+[ = *
 ] = noop
 
 capslock = noop
@@ -34,8 +34,8 @@ a = 0
 s = 6
 d = 5
 f = 4
-g = noop
-h = noop
+g = +
+h = +
 j = 4
 k = 5
 l = 6
@@ -45,15 +45,15 @@ l = 6
 enter = noop
 
 leftshift = setlayout(main)
-102nd = noop
+102nd = =
 z = 3
 x = 2
 c = 1
-v = noop
+v = -
 b = noop
-n = noop
+n = -
 m = 1
 , = 2
 . = 3
-/ = noop
+/ = =
 rightshift = setlayout(main)
