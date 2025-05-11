@@ -1,7 +1,7 @@
 [ju_ru:layout]
 
-` = layer(navigation)
-1 = !
+` = layer(ju_ru_control)
+1 = layer(navigation)
 2 = -
 3 = "
 4 = .
@@ -41,7 +41,7 @@ k = о
 l = т
 ; = к
 ' = layer(ju_ru_shift)
-\ = noop
+\ = layer(ju_ru_control)
 enter = enter
 
 leftshift = shift
